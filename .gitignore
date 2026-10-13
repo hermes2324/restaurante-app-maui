@@ -361,3 +361,7 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+# Claves locales: nunca se suben
+RestauranteNoseCual/Base de Datos/Secretos.cs
+RestauranteNoseCual/Platforms/Android/google-services.json
+secrets.txt

@@ -12,7 +12,7 @@ namespace RestauranteNoseCual.Base_de_Datos
     public class AutentificacionGoogle
     {
         private const string ClientId = "134372964689-avv8eggc7ejfpqddhmvb7046upopi255.apps.googleusercontent.com";
-        private const string ClientSecret = "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";
+        private static readonly string ClientSecret = Secretos.GoogleClientSecret;
         private const string RedirectUri = "com.googleusercontent.apps.134372964689-avv8eggc7ejfpqddhmvb7046upopi255:/oauth2redirect";
         private const string Scope = "openid email profile";
         private const string AuthUrl = "https://accounts.google.com/o/oauth2/v2/auth";

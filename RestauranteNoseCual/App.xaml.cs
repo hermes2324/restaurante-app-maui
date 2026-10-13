@@ -12,7 +12,7 @@ namespace RestauranteNoseCual
         //este si jala
         //public App()
         //{
-        //    Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("Ngo9BigBOggjHTQxAR8/V1JHaF5cWWdCe0x3WmFZfVhgdl9CYFZSQmYuP1ZhSXxVdkFjWH9cdX1UQWlbWEB9XEE=");
+        //    Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("LICENCIA_REMOVIDA");
         //    InitializeComponent();
 
         //    if (SesionService.HaySesionActiva())
@@ -32,7 +32,7 @@ namespace RestauranteNoseCual
 
         public App()
         {
-            Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("Ngo9BigBOggjHTQxAR8/V1JHaF5cWWdCe0x3WmFZfVhgdl9CYFZSQmYuP1ZhSXxVdkFjWH9cdX1UQWlbWEB9XEE=");
+            Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense(Secretos.SyncfusionLicense);
             InitializeComponent();
 
             if (SesionService.HaySesionActiva())
